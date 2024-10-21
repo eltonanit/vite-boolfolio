@@ -1,5 +1,8 @@
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+ 
+ PARTE 2
+ 
+ Continuate a lavorare sulle repo aperte ieri, aggiungendo in vite-boolfolio la gestione delle rotte.
+Installate quindi il pacchetto vue-router con il comando npm i vue-router@4 e quindi create il file router.js in cui andare a definire le rotte delle vostre pagine.
+Realizzate un header in cui andare a mettere le voci del menù di navigazione. Dovrete fare due pagine obbligatoriamente: Homepage e Portfolio. In quest'ultima dovrete mostrare i vostri progetti.
+Bonus 1: utilizzate lo store per le voci del menù e l'URI del vostro endpoint.
+Bonus 2: realizzate altre pagine istituzionali (Chi sono per esempio).
