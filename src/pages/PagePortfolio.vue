@@ -29,8 +29,6 @@ export default {
 </script>
 
 <template>
-
- 
     <div claas="container p-2">
         <div claas="row gy-4">
             <div claas="col-12">
