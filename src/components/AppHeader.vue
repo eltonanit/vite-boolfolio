@@ -12,10 +12,12 @@ export default {
                 <div class="col-12">
                     <ul class="list-unstyled d-flex justify-content-center">
                         <li class="me-2">
-                            <a href="#">Home</a>
+                            <router-link :to="{ name: 'homepage'}">Home</router-link>
+                           
                         </li>
                         <li class="me-2">
-                            <a href="#">Portfolio</a>
+                            <router-link :to="{ name: 'portfolio'}">Portfolio</router-link>
+                           
                         </li>
                     </ul>
                 </div>
