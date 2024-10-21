@@ -11,3 +11,5 @@ const router = createRouter({
         }
     ]
 })
+
+export {router }
