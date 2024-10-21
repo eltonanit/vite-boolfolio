@@ -1,10 +1,12 @@
   <script>
   import ProjectCard from './components/ProjectCard.vue';
+  import AppHeader from './components/AppHeader.vue';
   import axios from 'axios';
 
   export default {
     components: {
-      ProjectCard
+      ProjectCard,
+      AppHeader
 
     }, 
 
@@ -30,6 +32,8 @@
  
  <template>
 
+  <AppHeader/>
+
   <div claas="container p-2">
     <div claas="row gy-4">
       <div claas="col-12">
@@ -37,8 +41,8 @@
       </div>
     </div>
     <div claas="row">
-      <ProjectCard v-for="proj in projects" :key="proj.id" :project="proj"/>
-       
+      <ProjectCard v-for="proj in projects" :key="proj.id" :project="proj" />
+
     </div>
   </div>
 
