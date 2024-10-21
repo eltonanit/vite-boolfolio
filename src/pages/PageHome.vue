@@ -3,7 +3,6 @@ export default {
     
 }
 </script>
-
 <template>
     <div class="container-fluid">
         <div class="row">
@@ -13,11 +12,7 @@ export default {
             </div>
         </div>
     </div>
-
-
-
 </template>
-
 <style lang="">
     
 </style>

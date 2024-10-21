@@ -3,8 +3,6 @@ export default {
     
 }
 </script>
-
-
    <template>
     <header>
         <div class="container-fluid">
@@ -25,8 +23,6 @@ export default {
         </div>
     </header>
 </template>
-
-
 <style lang="">
     
 </style>
