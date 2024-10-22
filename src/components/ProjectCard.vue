@@ -8,15 +8,19 @@ export default {
 }
 </script>
 <template>
-     <div class="col-12 col-md-6 col-lg-4">
+    <div class="col-12 col-md-6 col-lg-4">
         <div class="card">
-          <img class="card-img-top" :src="project.image != null ? `http://127.0.0.1:8000/storage/${project.image}` : `https://placehold.co/600x400?text=Immagine+copertina`" >
-          <div class="card-body">
-            <h4 class="card-title">{{project.name}}</h4>
-            <p>{{ project.summary }}</p>
-          </div>
+            <img class="card-img-top"
+                :src="project.image != null ? `http://127.0.0.1:8000/storage/${project.image}` : `https://placehold.co/600x400?text=Immagine+copertina`">
+            <div class="card-body">
+                <h4 class="card-title">{{ project.name }}</h4>
+                <p>{{ project.summary }}</p>
+                <router-link class="btn btn-sm btn-primary"
+                    :to="{ name: 'single-project', params: { slug: project.slug } }">Dettaglio del progetto
+                </router-link>
+            </div>
         </div>
-      </div>
+    </div>
 </template>
 
 <style lang="scss">

@@ -1,6 +1,6 @@
 <script>
 import axios from 'axios';
-import { store } from 'store';
+import { store } from './store.js';
 
 export default {
     data() {
@@ -17,7 +17,7 @@ export default {
                     this.project = res.data.result
                 }
                 else{
-                    
+
                 }
 
             });
