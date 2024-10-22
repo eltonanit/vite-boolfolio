@@ -1,5 +1,6 @@
 <script>
 export default {
+    name: 'PageHome'
     
 }
 </script>
@@ -13,6 +14,6 @@ export default {
         </div>
     </div>
 </template>
-<style lang="">
+<style>
     
 </style>

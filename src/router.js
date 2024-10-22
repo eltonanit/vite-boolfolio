@@ -7,14 +7,14 @@ const router = createRouter({
     history: createWebHistory(),
     routes:[
         {
-            path:'/homepage',
+            path: '/',
             name: 'homepage',
-            components: PageHome
+            component: PageHome
         },
         {
             path: '/portfolio',
             name: 'portfolio',
-            components: PagePortfolio
+            component: PagePortfolio
         }
     ]
 })
