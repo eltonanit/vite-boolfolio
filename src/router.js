@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+import PageContacts from './pages/PageContacts.vue';
 import PageHome from './pages/PageHome.vue';
 import PagePortfolio from './pages/PagePortfolio.vue';
 import PageSingleProject from './pages/PageSingleProject.vue';
@@ -16,6 +17,11 @@ const router = createRouter({
             path: '/portfolio',
             name: 'portfolio',
             component: PagePortfolio
+        },
+        {
+            path: '/contacts',
+            name: 'contacts',
+            component: PageContacts
         },
         {
             path: '/portfolio/:slug',
