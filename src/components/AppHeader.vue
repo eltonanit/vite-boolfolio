@@ -11,11 +11,15 @@ export default {
                     <ul class="list-unstyled d-flex justify-content-center">
                         <li class="me-2">
                             <router-link :to="{ name: 'homepage'}">Home</router-link>
-                           
+
                         </li>
                         <li class="me-2">
                             <router-link :to="{ name: 'portfolio'}">Portfolio</router-link>
-                           
+
+                        </li>
+                        <li class="me-2">
+                            <router-link :to="{ name: 'contacts' }">Contatti</router-link>
+
                         </li>
                     </ul>
                 </div>
